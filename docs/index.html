@@ -13,44 +13,41 @@
   <section class="section">
     <div class="container">
       <h1 class="title is-1">
-        Guestbook
+        API testing
       </h1>
-      <p class="subtitle">
-        A serverless web application
-      </p>
-
+      
       <div class="columns">
         <div class="column">
           <h3 class="title is-3">
-            Messages from past visitors
+            Data from cloudant
           </h3>
           <div id="entries"></div>
         </div>
         <div class="column">
           <h3 class="title is-3">
-            Add your message
+            Add your data
           </h3>
           <form id="addEntry">
             <div class="field">
-              <label class="label">Name</label>
+              <label class="label">Customer</label>
               <div class="control">
-                <input class="input" type="text" placeholder="your name" id="name">
+                <input class="input" type="text" placeholder="Customer name" id="name">
               </div>
             </div>
             <div class="field">
-              <label class="label">Email</label>
+              <label class="label">CI</label>
               <div class="control">
-                <input class="input" type="text" placeholder="your email" id="email">
+                <input class="input" type="text" placeholder="Configuration Item" id="email">
               </div>
             </div>
             <div class="field">
-              <label class="label">Comment</label>
+              <label class="label">Priority</label>
               <div class="control">
-                <textarea class="textarea" placeholder="your comment" id="comment"></textarea>
+                <textarea class="textarea" placeholder="priority" id="comment"></textarea>
               </div>
             </div>
             <div class="control">
-              <button class="button is-primary">Send your message</button>
+              <button class="button is-primary">Send data</button>
             </div>
           </form>
         </div>
